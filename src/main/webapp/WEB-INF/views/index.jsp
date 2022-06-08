@@ -27,5 +27,5 @@
 			<a href="#" class="btn btn-primary">상세보기</a>
 		</div>
 	</div>
-
-	<%@ include file="layout/footer.jsp"%>
+</div>
+<%@ include file="layout/footer.jsp"%>
