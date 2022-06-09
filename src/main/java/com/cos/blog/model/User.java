@@ -33,7 +33,7 @@ public class User {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)	//넘버링 전략. 해당 프로젝트에서 연결된 DB의 넘버링 전략을 따라간다.
 	private int id;	// 시퀀스, auto-increment
 	
-	@Column(nullable = false, length = 30)	//null값이 될 수 없고, 길이 30이하.
+	@Column(nullable = false, length = 30,unique=true)	//null값이 될 수 없고, 길이 30이하.
 	private String username;	//아이디
 	
 	@Column(nullable = false, length = 100)	//null값이 될 수 없고, 길이 100이하.  //왜 길게 하느냐? =>해쉬(비밀번호 암호화)할꺼라서

@@ -16,15 +16,7 @@ public class UserService {
 	private UserRepository userRepository;
 	
 	@Transactional
-	public int 회원가입(User user) {
-		try {	//save 가 정상적으로 되면  return 1
-			userRepository.save(user);
-			return 1;
-		} catch (Exception e) {	//save 중에 오류가 생기면 return -1
-			e.printStackTrace();
-			System.out.println("UserService:회원가입() : " + e.getMessage());
-		}
-		return -1;
-		
+	public void 회원가입(User user) {
+		userRepository.save(user);
 	}
 }
