@@ -39,8 +39,6 @@ public class Board {
 	@Lob	//대용량 데이터
 	private String content;	//내용 , 섬머노트 라이브러리 사용 //우리가 쓴 글이 <html>태그가 섞여서 디자인 되어서 들어감 
 	
-	
-	@ColumnDefault("0") //default 값을 0으로. int 기 때문에 " 만 있어도 됨.
 	private int count; //조회수
 	
 	@ManyToOne //Many = Board, User = One 한명의 유저는 여러개의 게시물을 쓸 수 있다. 
