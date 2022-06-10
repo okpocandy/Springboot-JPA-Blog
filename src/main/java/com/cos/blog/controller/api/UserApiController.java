@@ -1,5 +1,7 @@
 package com.cos.blog.controller.api;
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -25,5 +27,16 @@ public class UserApiController {
 		user.setRole(RoleType.USER);
 		userService.회원가입(user);	// 1이면 성공,아니면 실패
 		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);	//자바오브젝트를 JSON으로 변환해서 리턴
+	}
+	
+	@PostMapping("/api/user/login")
+	public ResponseDto<Integer> login(@RequestBody User user,HttpSession session){	//User로 받는것:username, password
+		System.out.println("UserApiController : login호출됨");
+		User principal = userService.로그인(user);	//principal(접근주체)
+		
+		if(principal != null) {
+			session.setAttribute("principal", principal);		//세션이 만들어짐
+		}
+		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
 	}
 }
