@@ -4,28 +4,38 @@
 
 <div class="container">
 
-	<div class="card m-2">
-		<div class="card-body">
-			<h4 class="card-title">제목 적는 부분</h4>
-			<p class="card-text">내용 적는 부분</p>
-			<a href="#" class="btn btn-primary">상세보기</a>
+	<!-- 게시판 -->
+	<!-- forEach: 는 List, 배열 요소를 순서대로 반복해서 처리할 수 있는 태그 -->
+	<c:forEach var="board" items="${boards.content}">
+		<!-- $는 EL 읽는거. boardcontroller에서 index로 오면서 boards를 날림 -->
+		<div class="card m-2">
+			<div class="card-body">
+				<h4 class="card-title">${board.title}</h4>
+				<a href="#" class="btn btn-primary">상세보기</a>
+			</div>
 		</div>
-	</div>
+	</c:forEach>
+	<!-- 페이징 버튼 -->
+	<ul class="pagination justify-content-center">
+		<c:choose>
+			<c:when test="${boards.first}">
+				<li class="page-item disabled"><a class="page-link" href="?page=${boards.number-1 }">Previous</a></li>
+			</c:when>
+			<c:otherwise>
+				<li class="page-item"><a class="page-link" href="?page=${boards.number-1 }">Previous</a></li>
+			</c:otherwise>
+		</c:choose>
 
-	<div class="card m-2">
-		<div class="card-body">
-			<h4 class="card-title">제목 적는 부분</h4>
-			<p class="card-text">내용 적는 부분</p>
-			<a href="#" class="btn btn-primary">상세보기</a>
-		</div>
-	</div>
-
-	<div class="card m-2">
-		<div class="card-body">
-			<h4 class="card-title">제목 적는 부분</h4>
-			<p class="card-text">내용 적는 부분</p>
-			<a href="#" class="btn btn-primary">상세보기</a>
-		</div>
-	</div>
+		<c:choose>
+			<c:when test="${boards.last}">
+				<li class="page-item disabled"><a class="page-link" href="?page=${boards.number+1 }">Next</a></li>
+			</c:when>
+			<c:otherwise>
+				<li class="page-item"><a class="page-link" href="?page=${boards.number+1 }">Next</a></li>
+			</c:otherwise>
+		</c:choose>
+	</ul>
+	
 </div>
+
 <%@ include file="layout/footer.jsp"%>
