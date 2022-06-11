@@ -28,7 +28,7 @@ spring:
       naming:                    #기존에 user라는 테이블이 있어도 실행할때마다 새로 만듬. 그래서 만들고 나면 update로 바꿔야 한다. 
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl #변수명 그대로 Table을 만들어줌.
       use-new-id-generator-mappings: false #sequence전략을 어떻게 할것인가? false를 하면 jpa가 사용하는 기본 넘버링      
-    show-sql: true #콘솔창에 보여줌                         #전략을 따라가지 않는다는 뜻. true 를 하면 jpa 가 사용하는 기본 넘버링 전략 사용.
+    #show-sql: true #콘솔창에 보여줌                         #전략을 따라가지 않는다는 뜻. true 를 하면 jpa 가 사용하는 기본 넘버링 전략 사용.
     properties:
       hibernate.format_sql: true #콘솔창에 정렬이 되서 보여지게 됨.
 

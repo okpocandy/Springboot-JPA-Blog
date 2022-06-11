@@ -3,6 +3,7 @@ package com.cos.blog.config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -11,6 +12,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import com.cos.blog.config.auth.PrincipalDetailService;
+
 
 @SuppressWarnings("deprecation")
 @Configuration	//빈 등록 : 스프링 컨테이너에서 객체를 관리할 수 있게 하는 것(IoC관리)
@@ -21,6 +23,14 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 	@Autowired 
 	private PrincipalDetailService principalDetailService;
 	
+	
+	
+	@Bean
+	@Override
+	public AuthenticationManager authenticationManagerBean() throws Exception {		
+		return super.authenticationManagerBean();
+	}
+
 	@Bean	// 함수가 리턴하는 값을 스프링이 관리. 필요할 때 마다 사용하면 됨. IoC가 되요
 	public BCryptPasswordEncoder encodePWD() {
 		return new BCryptPasswordEncoder();
