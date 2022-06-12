@@ -1,0 +1,17 @@
+package com.cos.blog.config;
+
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+
+public class SecurityConfig extends WebSecurityConfigurerAdapter{
+
+	@Override
+	protected void configure(HttpSecurity http) throws Exception {
+		http
+			.authorizeRequests()	//request가 들어올때
+				.antMatchers("/auth/**")	//auth쪽으로 들어오는건 다 허락해준다.
+				.permitAll()
+				.anyRequest()	//이게 아닌 다른 모든 요청은
+				.authenticated();	//인증이 되야함
+	}
+}
