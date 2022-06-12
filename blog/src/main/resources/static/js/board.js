@@ -10,8 +10,11 @@ let index = {
 		$("#btn-update").on("click", () => {
 			this.update();
 		});
+		$("#btn-reply-save").on("click", () => {
+			this.replySave();
+		});
 	},
-	
+
 	save: function() {
 		let data = {
 			title: $("#title").val(),
@@ -36,14 +39,14 @@ let index = {
 			alert(JSON.stringify(error));
 		});
 	},
-	
+
 	deleteById: function() {
 		let id = $("#id").text();
-	
+
 		$.ajax({  // 회원가입 수행 요청
 			type: "DELETE",
 			url: "/api/board/" + id,
-			dataType: "json" 
+			dataType: "json"
 		}).done(function(resp) {  // 정상이면 이거 실행
 			alert("삭제가 완료되었습니다.");
 			console.log(resp);
@@ -52,10 +55,10 @@ let index = {
 			alert(JSON.stringify(error));
 		});
 	},
-	
+
 	update: function() {
 		let id = $("#id").val();
-		
+
 		let data = {
 			title: $("#title").val(),
 			content: $("#content").val()
@@ -63,7 +66,7 @@ let index = {
 
 		$.ajax({  // 회원가입 수행 요청
 			type: "PUT",
-			url: "/api/board/"+id,
+			url: "/api/board/" + id,
 			data: JSON.stringify(data), //JSON으로 변경해 // http body데이터
 			contentType: "application/json; charset=urf-8", //body데이터가 어떤 타입인지(MIME)
 			dataType: "json" //요청을 서버로해서 응답이 왔을 때 기본적으로 모드느 것이 문자열 (생긴게 json이라면) => javascript오브젝트로 변경
@@ -71,6 +74,43 @@ let index = {
 			alert("글수정이 완료되었습니다.");
 			console.log(resp);
 			location.href = "/";
+		}).fail(function(error) { // 실패하면 이거 실행
+			alert(JSON.stringify(error));
+		});
+	},
+
+	replySave: function() {
+		let data = {
+			userId: $("#userId").val(),
+			boardId: $("#boardId").val(),
+			content: $("#reply-content").val()
+		};
+
+
+		$.ajax({  // 회원가입 수행 요청
+			type: "POST",
+			url: `/api/board/${data.boardId}/reply`,
+			data: JSON.stringify(data), //JSON으로 변경해 // http body데이터
+			contentType: "application/json; charset=urf-8", //body데이터가 어떤 타입인지(MIME)
+			dataType: "json" //요청을 서버로해서 응답이 왔을 때 기본적으로 모드느 것이 문자열 (생긴게 json이라면) => javascript오브젝트로 변경
+
+		}).done(function(resp) {  // 정상이면 이거 실행
+			alert("댓글작성 완료되었습니다.");
+			console.log(resp);
+			location.href = `/board/${data.boardId}`;
+		}).fail(function(error) { // 실패하면 이거 실행
+			alert(JSON.stringify(error));
+		});
+	},
+	
+	replyDelete: function(boardId, replyId) {
+		$.ajax({  // 회원가입 수행 요청
+			type: "DELETE",
+			url: `/api/board/${boardId}/reply/${replyId}`,
+			dataType: "json" //요청을 서버로해서 응답이 왔을 때 기본적으로 모드느 것이 문자열 (생긴게 json이라면) => javascript오브젝트로 변경
+		}).done(function(resp) {  // 정상이면 이거 실행
+			alert("댓글삭제 성공");
+			location.href = `/board/${boardId}`;
 		}).fail(function(error) { // 실패하면 이거 실행
 			alert(JSON.stringify(error));
 		});
