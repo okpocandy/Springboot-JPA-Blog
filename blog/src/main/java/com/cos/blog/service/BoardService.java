@@ -79,4 +79,13 @@ public class BoardService {
 	public void 댓글삭제(int replyId) {
 		replyRepository.deleteById(replyId);
 	}
+	
+	@Transactional
+	public void 댓글수정하기(int replyId, Reply requestreply) {
+		Reply reply = replyRepository.findById(replyId).orElseThrow(() -> {
+			return new IllegalArgumentException("댓글 찾기 실패 : 아이디를 찾을 수 없습니다.");
+		});	//영속화 완료
+		reply.setContent(requestreply.getContent());
+		System.out.println("댓글 수정 완료");
+	}
 }

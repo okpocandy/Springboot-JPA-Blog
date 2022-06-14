@@ -9802,3 +9802,2028 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.eclipse.ui 2 2 2022-06-12 22:52:05.899
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-06-12 22:54:33.931 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-06-12 22:54:35.608
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-12 22:54:35.608
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-12 22:54:35.608
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-12 22:54:35.608
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-12 22:54:35.608
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-12 22:54:35.608
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-12 22:54:35.608
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY org.eclipse.jface 2 0 2022-06-12 22:54:36.673
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-12 22:54:36.673
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40477d52,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2a1be9f8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-12 22:54:36.673
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@59b43e35,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66297b63,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-12 22:54:36.673
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d7f2719,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@685e5967,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2022-06-12 22:54:40.537
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-12 22:54:40.537
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d706283,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a118efb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2022-06-12 22:54:43.099
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-12 22:54:44.219
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.eclipse.ui 2 2 2022-06-12 22:54:44.984
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2022-06-13 19:03:21.870 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-06-13 19:03:26.760
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 19:03:26.760
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 19:03:26.760
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 19:03:26.760
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 19:03:26.760
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 19:03:26.760
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 19:03:26.760
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY org.eclipse.jface 2 0 2022-06-13 19:03:44.162
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-13 19:03:44.162
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e0de20d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@121f97fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-13 19:03:44.162
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70a3b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18baee88,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-13 19:03:44.162
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@59e67a18,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@37289e90,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2022-06-13 19:03:51.054
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-13 19:03:51.054
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52478bf5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@50cbe633,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2022-06-13 19:03:57.471
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-13 19:04:01.012
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.eclipse.ui 2 2 2022-06-13 19:05:04.562
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-13 19:05:14.077
+!MESSAGE [Info]	ESLint server running in node v16.14.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-13 19:05:17.900
+!MESSAGE [Info]	[lspserver] Using Typescript version (bundled) 4.6.4 from path "D:\spbootTest\sts-4.11.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.22.202205250019\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:06:42.335
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:06:42.335
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@c2ec278[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:06:42.371
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:06:42.623
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-13 19:06:47.963
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:06:48.864
+!MESSAGE Boot LS startup time from start to initialized: 6468ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:06:49.066
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UusUClqHisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:06:49.105
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:06:49.116
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:06:49.117
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:06:49.117
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:06:49.117
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UusUClqH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:06:49.166
+!MESSAGE classpath=104 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:06:49.170
+!MESSAGE buffering callback sts4.classpath.UusUClqH blog false 104
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:06:49.230
+!MESSAGE executing callback sts4.classpath.UusUClqH 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:06:50.007
+!MESSAGE executing callback sts4.classpath.UusUClqH SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:44.837
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UusUClqH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:44.837
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.UusUClqH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:44.837
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:44.838
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.UusUClqH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:47.034
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:47.035
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@c2ec278[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:47.035
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:48.477
+!MESSAGE Boot LS startup time from start to initialized: 1441ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:48.540
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JeeUGAycisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:48.540
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:48.541
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:48.541
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:48.541
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:48.542
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JeeUGAyc => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:48.547
+!MESSAGE classpath=104 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:48.552
+!MESSAGE buffering callback sts4.classpath.JeeUGAyc blog false 104
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:48.552
+!MESSAGE executing callback sts4.classpath.JeeUGAyc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:10:48.809
+!MESSAGE executing callback sts4.classpath.JeeUGAyc SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-13 19:11:52.913
+!MESSAGE [Info]	ESLint server running in node v16.14.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-13 19:11:53.251
+!MESSAGE [Info]	[lspserver] Using Typescript version (bundled) 4.6.4 from path "D:\spbootTest\sts-4.11.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.22.202205250019\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY Activator 1 0 2022-06-13 19:11:55.320
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-13 19:22:07.321
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-13 19:22:09.114
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-13 19:22:11.066
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:23:19.943
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JeeUGAyc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:23:19.944
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.JeeUGAyc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:23:19.944
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:23:19.944
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JeeUGAyc => OK
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-13 19:24:35.597
+!MESSAGE [Info]	ESLint server running in node v16.14.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-13 19:24:35.933
+!MESSAGE [Info]	[lspserver] Using Typescript version (bundled) 4.6.4 from path "D:\spbootTest\sts-4.11.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.22.202205250019\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY Activator 1 0 2022-06-13 19:24:37.891
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-13 19:24:37.957
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:26:19.547
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:26:19.548
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@c2ec278[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:26:19.548
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:26:20.930
+!MESSAGE Boot LS startup time from start to initialized: 1382ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:26:20.981
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zgAHdTRiisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:26:20.981
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:26:20.982
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:26:20.982
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:26:20.982
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:26:20.983
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zgAHdTRi => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:26:20.987
+!MESSAGE classpath=104 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:26:20.991
+!MESSAGE buffering callback sts4.classpath.zgAHdTRi blog false 104
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:26:20.991
+!MESSAGE executing callback sts4.classpath.zgAHdTRi 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 19:26:21.235
+!MESSAGE executing callback sts4.classpath.zgAHdTRi SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:05:17.762
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zgAHdTRi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:05:17.763
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zgAHdTRi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:05:17.763
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:05:17.763
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zgAHdTRi => OK
+!SESSION 2022-06-13 21:19:46.813 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-06-13 21:19:48.582
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 21:19:48.582
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 21:19:48.582
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 21:19:48.582
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 21:19:48.582
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 21:19:48.582
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 21:19:48.582
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY org.eclipse.jface 2 0 2022-06-13 21:19:49.621
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-13 21:19:49.621
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4e2ad1f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e0de20d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-13 21:19:49.621
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@121f97fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70a3b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-13 21:19:49.621
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18baee88,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@59e67a18,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:19:54.622
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:19:54.623
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5887849c[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:19:54.624
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:19:54.647
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2022-06-13 21:19:55.791
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:19:56.562
+!MESSAGE Boot LS startup time from start to initialized: 1932ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:19:56.633
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ipyJdmeNisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:19:56.636
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:19:56.638
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:19:56.639
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:19:56.639
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ipyJdmeN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:19:56.639
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:19:56.648
+!MESSAGE classpath=104 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:19:56.653
+!MESSAGE buffering callback sts4.classpath.ipyJdmeN blog false 104
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:19:56.653
+!MESSAGE executing callback sts4.classpath.ipyJdmeN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:19:56.956
+!MESSAGE executing callback sts4.classpath.ipyJdmeN SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2022-06-13 21:19:57.875
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:07.625
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ipyJdmeN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:07.626
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ipyJdmeN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:07.626
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:07.626
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ipyJdmeN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:14.763
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:14.764
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5887849c[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:14.764
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:16.249
+!MESSAGE Boot LS startup time from start to initialized: 1484ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:16.317
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.mQNRgiLTisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:16.317
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:16.317
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:16.318
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:16.318
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:16.318
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.mQNRgiLT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:16.323
+!MESSAGE classpath=104 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:16.326
+!MESSAGE buffering callback sts4.classpath.mQNRgiLT blog false 104
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:16.327
+!MESSAGE executing callback sts4.classpath.mQNRgiLT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:20:16.575
+!MESSAGE executing callback sts4.classpath.mQNRgiLT SUCCESS [done]
+
+!ENTRY org.eclipse.jface 2 0 2022-06-13 21:24:19.139
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-13 21:24:19.139
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@549f11e0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1dd6812a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2022-06-13 21:24:20.516
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-13 21:24:23.898
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-13 21:24:24.887
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-13 21:24:25.977
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:25:22.855
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mQNRgiLT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:25:22.856
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.mQNRgiLT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:25:22.856
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:25:22.856
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mQNRgiLT => OK
+
+!ENTRY Activator 1 0 2022-06-13 21:25:22.860
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-06-13 21:25:23.867
+!MESSAGE An internal error occurred during: "AsyncLiveExpression refresh".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.springsource.ide.eclipse.commons.livexp.Activator.getLog()" because the return value of "org.springsource.ide.eclipse.commons.livexp.Activator.getDefault()" is null
+	at org.springsource.ide.eclipse.commons.livexp.Activator.log(Activator.java:63)
+	at org.springsource.ide.eclipse.commons.livexp.core.ObservableSet$Builder$1.compute(ObservableSet.java:48)
+	at org.springsource.ide.eclipse.commons.livexp.core.ObservableSet$Builder$1.compute(ObservableSet.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springsource.ide.eclipse.commons.livexp.core.AsyncLiveExpression.syncRefresh(AsyncLiveExpression.java:125)
+	at org.springsource.ide.eclipse.commons.livexp.core.AsyncLiveExpression$1.run(AsyncLiveExpression.java:95)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-06-13 21:27:31.577 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-06-13 21:27:38.100
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 21:27:38.100
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 21:27:38.100
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 21:27:38.100
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 21:27:38.100
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 21:27:38.100
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-13 21:27:38.100
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY org.eclipse.jface 2 0 2022-06-13 21:28:03.576
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-13 21:28:03.576
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@23263586,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4e2ad1f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-13 21:28:03.576
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e0de20d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@121f97fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-13 21:28:03.576
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70a3b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18baee88,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:28:12.299
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:28:12.300
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5de83a75[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:28:12.311
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:28:12.704
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2022-06-13 21:28:13.407
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-13 21:28:13.407
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2e7bcd52,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d41b46a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:28:19.205
+!MESSAGE Boot LS startup time from start to initialized: 6754ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:28:19.399
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.afAUVWjlisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:28:19.444
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:28:19.445
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:28:19.445
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:28:19.446
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.afAUVWjl => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:28:19.446
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2022-06-13 21:28:23.504
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:28:23.546
+!MESSAGE classpath=104 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:28:23.551
+!MESSAGE buffering callback sts4.classpath.afAUVWjl blog false 104
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:28:23.551
+!MESSAGE executing callback sts4.classpath.afAUVWjl 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:28:25.447
+!MESSAGE executing callback sts4.classpath.afAUVWjl SUCCESS [done]
+
+!ENTRY Activator 1 0 2022-06-13 21:28:27.034
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-13 21:28:27.669
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.eclipse.ui 2 2 2022-06-13 21:28:43.101
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2022-06-13 21:41:10.400
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:41:10.597
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.afAUVWjl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:41:10.597
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.afAUVWjl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:41:10.598
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:41:10.598
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.afAUVWjl => OK
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-13 21:44:46.314
+!MESSAGE [Info]	ESLint server running in node v16.14.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-13 21:44:49.316
+!MESSAGE [Info]	[lspserver] Using Typescript version (bundled) 4.6.4 from path "D:\spbootTest\sts-4.11.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.22.202205250019\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:47:58.831
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:47:58.832
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5de83a75[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:47:58.832
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:48:02.188
+!MESSAGE Boot LS startup time from start to initialized: 3356ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:48:02.245
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jcfqzSyxisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:48:02.246
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:48:02.246
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:48:02.246
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:48:02.247
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:48:02.247
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.jcfqzSyx => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:48:02.252
+!MESSAGE classpath=104 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:48:02.256
+!MESSAGE buffering callback sts4.classpath.jcfqzSyx blog false 104
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:48:02.256
+!MESSAGE executing callback sts4.classpath.jcfqzSyx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:48:02.529
+!MESSAGE executing callback sts4.classpath.jcfqzSyx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:48:33.481
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jcfqzSyx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:48:33.482
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.jcfqzSyx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:48:33.482
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:48:33.482
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.jcfqzSyx => OK
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-13 21:48:51.011
+!MESSAGE [Info]	ESLint server running in node v16.14.2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:49:21.806
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:49:21.807
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5de83a75[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:49:21.807
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:49:23.271
+!MESSAGE Boot LS startup time from start to initialized: 1462ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:49:23.322
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.byjprNdUisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:49:23.323
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:49:23.323
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:49:23.323
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:49:23.323
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:49:23.324
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.byjprNdU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:49:23.329
+!MESSAGE classpath=104 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:49:23.332
+!MESSAGE buffering callback sts4.classpath.byjprNdU blog false 104
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:49:23.332
+!MESSAGE executing callback sts4.classpath.byjprNdU 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 21:49:23.584
+!MESSAGE executing callback sts4.classpath.byjprNdU SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:08.506
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.byjprNdU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:08.507
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.byjprNdU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:08.507
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:08.508
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.byjprNdU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:10.162
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:10.162
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5de83a75[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:10.163
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:11.636
+!MESSAGE Boot LS startup time from start to initialized: 1473ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:11.698
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.aQLSrhuuisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:11.699
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:11.699
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:11.700
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:11.700
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:11.700
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.aQLSrhuu => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:11.704
+!MESSAGE classpath=104 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:11.708
+!MESSAGE buffering callback sts4.classpath.aQLSrhuu blog false 104
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:11.708
+!MESSAGE executing callback sts4.classpath.aQLSrhuu 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:01:11.966
+!MESSAGE executing callback sts4.classpath.aQLSrhuu SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-13 22:18:12.172
+!MESSAGE [Info]	ESLint server running in node v16.14.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-13 22:18:12.536
+!MESSAGE [Info]	[lspserver] Using Typescript version (bundled) 4.6.4 from path "D:\spbootTest\sts-4.11.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.22.202205250019\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY Activator 1 0 2022-06-13 22:18:14.534
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:26.953
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.aQLSrhuu
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:26.954
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.aQLSrhuu
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:26.954
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:26.954
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.aQLSrhuu => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:27.533
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:27.534
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5de83a75[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:27.534
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:28.975
+!MESSAGE Boot LS startup time from start to initialized: 1441ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:29.093
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LNywaoVmisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:29.094
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:29.095
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:29.095
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:29.095
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:29.096
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LNywaoVm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:29.100
+!MESSAGE classpath=104 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:29.103
+!MESSAGE buffering callback sts4.classpath.LNywaoVm blog false 104
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:29.104
+!MESSAGE executing callback sts4.classpath.LNywaoVm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:47:29.357
+!MESSAGE executing callback sts4.classpath.LNywaoVm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:26.517
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LNywaoVm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:26.517
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LNywaoVm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:26.518
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:26.518
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LNywaoVm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:38.294
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:38.294
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5de83a75[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:38.294
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:39.691
+!MESSAGE Boot LS startup time from start to initialized: 1396ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:39.742
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AQXWdcAtisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:39.742
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:39.743
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:39.743
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:39.743
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:39.744
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AQXWdcAt => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:39.748
+!MESSAGE classpath=104 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:39.752
+!MESSAGE buffering callback sts4.classpath.AQXWdcAt blog false 104
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:39.752
+!MESSAGE executing callback sts4.classpath.AQXWdcAt 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 22:53:40.002
+!MESSAGE executing callback sts4.classpath.AQXWdcAt SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 23:01:58.629
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.AQXWdcAt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 23:01:58.630
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.AQXWdcAt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 23:01:58.630
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-13 23:01:58.630
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.AQXWdcAt => OK
+!SESSION 2022-06-14 22:47:20.125 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2022-06-14 22:47:25.567
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-14 22:47:25.567
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-14 22:47:25.567
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-14 22:47:25.567
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-14 22:47:25.567
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-14 22:47:25.567
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-06-14 22:47:25.567
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY org.eclipse.jface 2 0 2022-06-14 22:47:41.538
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-14 22:47:41.538
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@60c33609,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6137dc84,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-14 22:47:41.538
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22f1a340,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@32f243f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-14 22:47:41.538
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7aa5292d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@25291901,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 22:47:53.436
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 22:47:53.436
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@71f6caec[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 22:47:53.451
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 22:47:53.592
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2022-06-14 22:47:55.308
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 22:48:01.775
+!MESSAGE Boot LS startup time from start to initialized: 8319ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 22:48:02.037
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.bXwBKHHDisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 22:48:02.048
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 22:48:02.050
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 22:48:02.050
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 22:48:02.051
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 22:48:02.051
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.bXwBKHHD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 22:48:02.073
+!MESSAGE classpath=104 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 22:48:02.076
+!MESSAGE buffering callback sts4.classpath.bXwBKHHD blog false 104
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 22:48:02.077
+!MESSAGE executing callback sts4.classpath.bXwBKHHD 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 22:48:02.531
+!MESSAGE executing callback sts4.classpath.bXwBKHHD SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2022-06-14 22:51:07.493
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jface 2 0 2022-06-14 22:52:54.242
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-14 22:52:54.242
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3165b665,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@792a8683,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-14 22:52:55.377
+!MESSAGE [Info]	ESLint server running in node v16.14.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-14 22:52:57.129
+!MESSAGE [Info]	[lspserver] Using Typescript version (bundled) 4.6.4 from path "D:\spbootTest\sts-4.11.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.22.202205250019\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY Activator 1 0 2022-06-14 22:53:03.852
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:54:31.475
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:54:34.462
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:54:46.590
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:54:47.854
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:54:49.979
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:54:50.164
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:54:54.474
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:54:59.159
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:55:00.443
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:55:01.330
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:55:06.128
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:55:06.459
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:55:09.039
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:56:48.023
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:56:48.643
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:56:49.141
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:56:49.399
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:56:50.273
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:56:51.117
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:56:51.811
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:56:55.538
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:56:58.478
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:57:09.035
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:57:09.488
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:57:10.681
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:57:11.252
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:58:11.312
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:58:23.414
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:58:24.363
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:58:42.297
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:58:45.240
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:58:45.408
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:59:00.954
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:59:37.820
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:59:38.678
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:59:39.009
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:59:42.285
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:59:43.266
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 22:59:44.049
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:01:23.476
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-14 23:02:04.142
+!MESSAGE [Info]	ESLint server running in node v16.14.2
+
+!ENTRY Activator 1 0 2022-06-14 23:02:07.506
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:02:08.047
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:02:15.194
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:02:15.312
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:04:30.455
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:04:31.043
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:05:11.326
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:05:11.914
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.eclipse.ui 4 0 2022-06-14 23:05:12.286
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Display.getClickCount(int, int, long, long)" because "this.display" is null
+	at org.eclipse.swt.widgets.Widget.sendMouseEvent(Widget.java:1100)
+	at org.eclipse.swt.widgets.Widget.wmMouseMove(Widget.java:2103)
+	at org.eclipse.swt.widgets.Control.WM_MOUSEMOVE(Control.java:5328)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4807)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:5813)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4938)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY Activator 1 0 2022-06-14 23:06:49.871
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-14 23:08:10.653
+!MESSAGE [Info]	ESLint server running in node v16.14.2
+
+!ENTRY Activator 1 0 2022-06-14 23:08:59.652
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:10:50.180
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:10:50.710
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:10:51.912
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:10:52.829
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:10:53.384
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:10:54.824
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:10:55.390
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-14 23:12:19.685
+!MESSAGE [Info]	ESLint server running in node v16.14.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-14 23:14:50.671
+!MESSAGE [Info]	ESLint server running in node v16.14.2
+
+!ENTRY Activator 1 0 2022-06-14 23:17:12.110
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:17:12.657
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-14 23:17:18.988
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-06-14 23:17:22.497
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2022-06-14 23:19:18.357
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:19:18.994
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:55.540
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bXwBKHHD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:55.540
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.bXwBKHHD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:55.540
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:55.541
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bXwBKHHD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:56.399
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:56.400
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@71f6caec[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:56.400
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:57.842
+!MESSAGE Boot LS startup time from start to initialized: 1442ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:57.895
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FiCnddKxisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:57.895
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:57.895
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:57.896
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:57.896
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:57.896
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FiCnddKx => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:57.901
+!MESSAGE classpath=104 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:57.905
+!MESSAGE buffering callback sts4.classpath.FiCnddKx blog false 104
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:57.905
+!MESSAGE executing callback sts4.classpath.FiCnddKx 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-14 23:19:58.148
+!MESSAGE executing callback sts4.classpath.FiCnddKx SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-14 23:20:26.758
+!MESSAGE [Info]	ESLint server running in node v16.14.2
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-14 23:20:27.087
+!MESSAGE [Info]	[lspserver] Using Typescript version (bundled) 4.6.4 from path "D:\spbootTest\sts-4.11.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_0.5.22.202205250019\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY Activator 1 0 2022-06-14 23:20:29.006
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:20:29.068
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:23:32.850
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:27:23.344
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:27:23.928
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:28:51.213
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:29:02.371
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:29:02.963
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:30:21.189
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:31:02.052
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:31:05.868
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:31:06.415
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:32:34.268
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:32:34.862
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:32:36.169
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:32:50.517
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:32:51.061
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:33:38.776
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-14 23:36:53.125
+!MESSAGE [Info]	ESLint server running in node v16.14.2
+
+!ENTRY Activator 1 0 2022-06-14 23:36:58.727
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:37:02.744
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:37:02.909
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:37:10.515
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:37:14.599
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:37:15.147
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:38:22.212
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:38:27.259
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:38:33.444
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:38:39.067
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:38:50.127
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:38:56.734
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:39:01.153
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:39:11.382
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:39:22.125
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:39:29.692
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:39:39.300
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:39:57.551
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:42:15.557
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:42:16.098
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:44:06.407
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:44:07.000
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:44:37.019
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:44:37.607
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:46:13.572
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:46:14.155
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:46:42.047
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:47:18.835
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:48:37.843
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-14 23:49:07.062
+!MESSAGE [Info]	ESLint server running in node v16.14.2
+
+!ENTRY Activator 1 0 2022-06-14 23:49:31.204
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:49:34.764
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:49:35.787
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:49:36.584
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:49:37.473
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:49:50.266
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:49:51.130
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:49:51.703
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:49:52.048
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:50:24.294
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:50:28.145
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:50:31.669
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:50:33.280
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:50:48.325
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:50:50.507
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:09.452
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:26.306
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:26.759
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:29.656
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:30.316
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:31.538
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:31.943
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:32.573
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:32.978
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:33.535
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:40.868
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:42.191
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:43.125
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:44.502
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:50.235
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:51.419
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:51:51.584
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:52:34.191
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:52:35.066
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:52:37.004
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:52:37.168
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:52:41.865
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:52:42.260
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:52:42.803
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:52:43.118
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:52:51.674
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:52:51.790
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:53:14.204
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:53:14.480
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:54:56.944
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:54:57.537
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:59:44.664
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:59:45.340
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:59:45.535
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:59:46.210
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:59:47.171
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:59:49.383
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:59:50.271
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:59:50.837
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-14 23:59:51.502
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:00:39.459
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:00:40.244
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:00:41.177
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:00:41.582
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:00:55.619
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:00:55.903
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:00:56.219
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:00:57.108
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:01:14.845
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:01:15.326
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:01:15.793
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:01:16.410
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:01:16.967
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:01:17.327
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:01:18.262
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:01:19.980
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:01:20.236
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:02:30.452
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:02:31.038
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:02:51.380
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:02:52.022
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:03:35.207
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:03:47.500
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:03:50.144
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:03:50.382
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.eclipse.lsp4e 1 0 2022-06-15 00:04:56.689
+!MESSAGE [Info]	ESLint server running in node v16.14.2
+
+!ENTRY Activator 1 0 2022-06-15 00:06:35.395
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:06:35.783
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:06:39.427
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:06:39.543
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY Activator 1 0 2022-06-15 00:09:07.290
+!MESSAGE Has main method computation for project 'blog'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-15 00:09:07.291
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FiCnddKx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-15 00:09:07.291
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.FiCnddKx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-15 00:09:07.305
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-15 00:09:07.305
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FiCnddKx => OK

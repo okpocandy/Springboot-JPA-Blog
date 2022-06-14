@@ -4,7 +4,10 @@ import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -64,5 +67,14 @@ public class BoardApiController {
 		boardService.댓글삭제(replyId);
 		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1); // 1 return 하면 정상
 	}
+	
+	
+	@PutMapping("/api/board/{boardId}/reply/{replyId}")
+	public  ResponseDto<Integer> replyUpdate(@PathVariable int replyId, @RequestBody Reply reply){	
+		System.out.println("api들어옴");
+		boardService.댓글수정하기(replyId, reply);
+		return new ResponseDto<Integer>(HttpStatus.OK.value(), 1);
+	}
+	
 }
 

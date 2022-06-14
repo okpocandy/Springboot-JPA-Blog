@@ -64,7 +64,7 @@ let index = {
 			content: $("#content").val()
 		};
 
-		$.ajax({  // 회원가입 수행 요청
+		$.ajax({
 			type: "PUT",
 			url: "/api/board/" + id,
 			data: JSON.stringify(data), //JSON으로 변경해 // http body데이터
@@ -73,7 +73,7 @@ let index = {
 		}).done(function(resp) {  // 정상이면 이거 실행
 			alert("글수정이 완료되었습니다.");
 			console.log(resp);
-			location.href = "/";
+			location.href = "/board/" + id;
 		}).fail(function(error) { // 실패하면 이거 실행
 			alert(JSON.stringify(error));
 		});
@@ -87,7 +87,7 @@ let index = {
 		};
 
 
-		$.ajax({  // 회원가입 수행 요청
+		$.ajax({
 			type: "POST",
 			url: `/api/board/${data.boardId}/reply`,
 			data: JSON.stringify(data), //JSON으로 변경해 // http body데이터
@@ -102,9 +102,9 @@ let index = {
 			alert(JSON.stringify(error));
 		});
 	},
-	
+
 	replyDelete: function(boardId, replyId) {
-		$.ajax({  // 회원가입 수행 요청
+		$.ajax({
 			type: "DELETE",
 			url: `/api/board/${boardId}/reply/${replyId}`,
 			dataType: "json" //요청을 서버로해서 응답이 왔을 때 기본적으로 모드느 것이 문자열 (생긴게 json이라면) => javascript오브젝트로 변경
@@ -114,7 +114,28 @@ let index = {
 		}).fail(function(error) { // 실패하면 이거 실행
 			alert(JSON.stringify(error));
 		});
+	},
+
+	replyUpdate: function(boardId, replyId) {
+		let data = {
+			content :$( "#replyUpdate-content").val()
+		};
+		console.log("댓글수정");
+		$.ajax({
+			type: "PUT",
+			url: `/api/board/${boardId}/reply/${replyId}`,
+			data: JSON.stringify(data), //JSON으로 변경해 // http body데이터
+			contentType: "application/json; charset=urf-8", //body데이터가 어떤 타입인지(MIME)
+			dataType: "json" //요청을 서버로해서 응답이 왔을 때 기본적으로 모드느 것이 문자열 (생긴게 json이라면) => javascript오브젝트로 변경
+		}).done(function(resp) {  // 정상이면 이거 실행
+			alert("댓글수정 성공");
+			location.href = `/board/${boardId}`;
+		}).fail(function(error) { // 실패하면 이거 실행
+			alert(JSON.stringify(error));
+		});
 	}
+
+
 }
 
 index.init();
